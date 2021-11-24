@@ -21,18 +21,18 @@ body a:click{
              margin-right: -50px;
 }
 
+
 .logo {
     width: 23%;
     height: 50px;
     padding: 1%;
     text-align: left;
+    margin-top: 50px;
 }
 
 .navigation {
              display: flex;
              justify-content: space-between;
-             height: 100px;
-
 }
 
 nav {
@@ -52,6 +52,7 @@ nav a {
 a{
   text-decoration: none;
 }
+
 
 .dropdown {
     padding: 50px;
@@ -261,6 +262,130 @@ a{
   align-content: end;
 }
 
+#categoryGrid4 {
+  margin: 25px 5%;
+  display: grid;
+  grid-template-rows: 450px 450px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "wKis wKis2 wAlz"
+  "wAlz2 wAlz3 wTS"
+  ;
+}
+
+#wKis {
+  grid-area: wKis;
+  background-image: url("../images/UserFlowKis.png");
+
+}
+
+#wKis2 {
+  grid-area: wKis2;
+  background-image: url("../images/siteMap.png");
+
+}
+
+#wAlz {
+  grid-area: wAlz;
+  background-image: url("../images/cardSortingALz.png");
+}
+
+#wAlz2 {
+  grid-area: wAlz2;
+  background-image: url("../images/UserFlowAlz.png");
+}
+
+#wAlz3 {
+  grid-area: wAlz3;
+  background-image: url("../images/SiteMapALZ.png");
+}
+
+#wTS {
+  grid-area: wTS;
+  background-image: url("../images/UserFlowTS.png");
+}
+
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+
+#categoryGrid5 {
+  margin: 25px 5%;
+  display: grid;
+  grid-template-rows: 450px 450px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "uKis uKis2 uAlz"
+  "uAlz2 uSp uPr"
+  ;
+}
+
+#uKis {
+  grid-area: uKis;
+  background-image: url("../images/moodBoardK.png");
+
+}
+#uKis2 {
+  grid-area: uKis2;
+  background-image: url("../images/StyleGuideK.png");
+}
+
+#uAlz {
+  grid-area: uAlz;
+  background-image: url("../images/StyleTileALZ.png");
+}
+
+#uAlz2 {
+  grid-area: uAlz2;
+  background-image: url("../images/StyleGuideALZ.png");
+}
+
+#uSp {
+  grid-area: uSp;
+  background-image: url("../images/inspireSpace.png");
+}
+
+#uPr {
+  grid-area: uPr;
+  background-image: url("../images/portId.png");
+}
+
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+.mySkills {
+          height: 450px;
+          justify-content: space-around;
+}
+
+.mySkills a{
+            color: black;
+}
+
+.illus {
+          display: flex;  
+          justify-content: space-around;
+          color: black;
+          justify-content: space-between;
+          margin-top: -200px;
+} 
+
 .card {   display: flex;
           width: 300px;
           flex-direction: column;
@@ -287,6 +412,10 @@ h5 {
     text-align: center;
     font-size: 25px;
     font-family: Lato;
+}
+
+p{
+  color:#767576;
 }
 
 .para {

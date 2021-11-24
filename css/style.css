@@ -108,6 +108,10 @@ a{
 
 }
 
+.myskills {
+            color: black;
+}
+
 .illus {
           display: flex;  
           justify-content: space-around;
