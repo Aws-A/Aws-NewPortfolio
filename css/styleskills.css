@@ -112,6 +112,10 @@ a{
   ;
 }
 
+.mySkills {
+           margin-top: -30px;
+}
+
 #Port {
   grid-area: Port;
   background-image: url("../images/protoPort.png");
