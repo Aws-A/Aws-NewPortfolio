@@ -119,7 +119,7 @@ a{
 
 #moodBoard {
   grid-area: moodBoard;
-  background-image: url("../images/moodBoard.png");
+  background-image: url("../images/moodBoardK.png");
 
 }
 #features {
@@ -134,7 +134,7 @@ a{
 
 #userFlow {
   grid-area: userFlow;
-  background-image: url("../images/userFlow.png");
+  background-image: url("../images/UserFlowKis.png");
 }
 
 .categoryGridArea {
