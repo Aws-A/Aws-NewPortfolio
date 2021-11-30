@@ -98,7 +98,8 @@ a{
           display: flex;
           height: 400px;
           padding: 25px;   
-          justify-content: space-around;      
+          justify-content: space-around;
+          margin-bottom: -75px;      
 }
 
 .hero {
@@ -173,7 +174,7 @@ p {
 }
 
 .para {
-       margin-top: 20px;
+       margin-top: 0px;
        text-align: center;
        margin-left: 0px;
 }

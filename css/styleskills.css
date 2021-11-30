@@ -98,7 +98,13 @@ a{
           display: flex;
           height: 400px;
           padding: 25px;   
-          justify-content: space-around;      
+          justify-content: space-around;
+          margin-top: -50px;      
+}
+
+.hero {
+      margin: 0px 90px 0px 0px;
+      height: 85%;
 }
 
 #categoryGrid {
