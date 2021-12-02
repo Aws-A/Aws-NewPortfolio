@@ -33,6 +33,7 @@ body a:click{
 .navigation {
              display: flex;
              justify-content: space-between;
+             z-index: 500px;
 }
 
 nav {
@@ -52,7 +53,6 @@ nav a {
 a{
   text-decoration: none;
 }
-
 
 .dropdown {
     padding: 50px;
@@ -94,19 +94,6 @@ a{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-.herolmg {
-          display: flex;
-          height: 400px;
-          padding: 25px;   
-          justify-content: space-around;
-          margin-top: -50px;      
-}
-
-.hero {
-      margin: 0px 90px 0px 0px;
-      height: 85%;
-}
-
 #categoryGrid {
   margin: 25px 5%;
   display: grid;
@@ -119,9 +106,16 @@ a{
 }
 
 .mySkills {
-           margin-top: -30px;
+           height: 450px;
+           justify-content: space-around;
+           margin-top: -25px;
            margin-bottom: -75px;
 }
+
+.mySkills a{
+            color: black;
+}
+
 
 #Port {
   grid-area: Port;
@@ -380,28 +374,17 @@ a{
   align-content: end;
 }
 
-.mySkills {
-          height: 450px;
-          justify-content: space-around;
-}
-
-.mySkills a{
-            color: black;
-}
-
 .illus {
           display: flex;  
           justify-content: space-around;
           color: black;
           justify-content: space-between;
-          margin-top: -200px;
+          margin-top: -25px;
 } 
 
 .card {   display: flex;
           width: 300px;
           flex-direction: column;
-          justify-content: center;
-          text-align: center;
 }
 
 h1 {

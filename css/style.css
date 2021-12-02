@@ -105,11 +105,8 @@ a{
 .mySkills {
           height: 450px;
           justify-content: space-around;
+          color: black;
 
-}
-
-.myskills {
-            color: black;
 }
 
 .illus {
