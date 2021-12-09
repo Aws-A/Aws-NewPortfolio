@@ -102,6 +102,7 @@ a{
           justify-content: space-around; 
 }
 
+
 .mySkills {
           height: 450px;
           justify-content: space-around;
@@ -226,7 +227,7 @@ p{
 }
 
 .buttonBg {
-           width: 50%;
+           width: 45%;
            margin-left: 60px;
 }
 
