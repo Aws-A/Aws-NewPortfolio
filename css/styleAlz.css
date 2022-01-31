@@ -73,18 +73,18 @@ a{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 200px;
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 5px 7px;
   text-decoration: none;
   display: block;
+  font-size: 17px;
+  border-bottom: 1px solid;
 }
 
 /* Change color of dropdown links on hover */
@@ -103,56 +103,71 @@ a{
           justify-content: space-around;      
 }
 
+.titleH{
+        margin-left: -55;
+        margin-top: 5px;
+}
+
 .hero {
-      margin: 25px 90px 0px 0px;
+      margin: 30px 90px 0px 0px;
       height: 85%;
 }
 
-#categoryGrid {
-  margin: 25px 5%;
-  display: grid;
-  grid-template-rows: 450px 450px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-  "moodBoard features siteMap"
-  "moodBoard userFlow userFlow"
-  ;
+.userResearch {
+               margin-top: 4.5%;
 }
 
-#moodBoard {
-  grid-area: moodBoard;
-  background-image: url("../images/moodBoard.png");
-
-}
-#features {
-  grid-area: features;
-  background-image: url("../images/features.png");
+.PersonaProto {
+               width: 80%;
+               justify-content: center;
+               margin-left: 7.5%;
+               margin-top: 3.5%;
 }
 
-#siteMap {
-  grid-area: siteMap;
-  background-image: url("../images/siteMap.png");
+.paraPP {
+          justify-content: center;
+          width: 80%;
 }
 
-#userFlow {
-  grid-area: userFlow;
-  background-image: url("../images/userFlow.png");
+.secInter {
+             display: flex;
+             justify-content: center;
+             margin-top: 7%;
 }
 
-.categoryGridArea {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 5px;
-  cursor: pointer;
-  display: grid;
-  align-content: end;
+.cardParaInter {
+              flex-direction: column;
+              display: flex;
+              width: 50%;
+              padding: 3%;
+              margin-left: 2%;
+              margin-top: -7%;
+}
+
+.interTitle {
+             margin-left: -37%;
+             margin-bottom: 7%;
+             margin-top: 5%;
+}
+
+.cardinter {
+          flex-direction: column;
+          display: flex;
+          width: 50%;
+          padding: 3%;
+          margin-right: 6.5%;
+          margin-top: -4%;
+}
+
+.synthesis {
+            margin-top: 4%;
 }
 
 .sec {
       display: flex;
       justify-content: center;
 }
+
 .card {   display: flex;
           width: 300px;
           flex-direction: column;
@@ -161,14 +176,50 @@ a{
 }
 
 .secSpecific {
-       display: flex;
        justify-content: center;
 }
 
-.paraSpecific {
-               text-align: left;
-               margin: 40px;
+.secSpecificP {
+       justify-content: center;
+       display: flex;
 }
+
+.paraSpecific {
+               text-align: center;
+               margin-top: 1%;
+}
+
+.ideation {
+           margin-top: 6%;
+}
+
+.prototypes {
+             margin-top: 6%;
+}
+
+.userUsability {
+                margin-top: 6%;
+}
+
+.futureOpp {
+                margin-top: 4%;
+}
+
+.protoLab {
+           margin-left: 2%;
+}
+
+.protoMob {
+           margin-right: 2%;
+}
+
+.SynImg {
+         width: 66%;
+         margin-left: 17%;
+         margin-top: 3%;
+}
+
+
 
 p {
    font-size: 18px;
@@ -186,9 +237,26 @@ p {
 
 
 .para {
-       margin-top: 20px;
+       margin-top: 3%;
        text-align: center;
        margin-left: 0px;
+}
+
+.cardLMH{
+         display: flex;
+         justify-content: center;
+         margin-left: 10%; 
+         width: 50%;
+         height: 50%;
+}
+
+.cardParaLMH {
+              flex-direction: column;
+              display: flex;
+              padding: 3%;
+              width: 50%;
+              margin-right: 10%;
+              margin-top: -3%;
 }
 
 h1 {
@@ -211,6 +279,8 @@ h5 {
     text-align: center;
     font-size: 25px;
     font-family: Lato;
+    margin-bottom: 1%;
+    margin-top: 3%;
 }
 
 .Projects h3 {
@@ -226,17 +296,6 @@ h5 {
              font-size: 22px regular;
              font-family: inter;
              text-align: center;
-}
-
-.heading {
-  background-color: rgba(0,0,0,0.7);
-  padding: 15px;
-  height: 25px;
-  color: white;
-  font-size: 18px;
-  border-bottom: 5px solid #24B0FF;
-  text-align: center;
-  font-family: inter;
 }
 
 footer {

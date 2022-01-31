@@ -36,9 +36,13 @@ body a:click{
     margin-top: 50px;
 }
 
+.titleH {
+        margin-left: -55;
+        margin-top: 5px;
+}
+
 .hero {
-      margin-top: 100px;
-      margin-right: 90px;
+      margin: 90px 90px 0px 0px;
       height: 30%;
 }
 
@@ -78,18 +82,18 @@ a{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 200px;
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 5px 7px;
   text-decoration: none;
   display: block;
+  font-size: 17px;
+  border-bottom: 1px solid;
 }
 
 /* Change color of dropdown links on hover */
@@ -113,14 +117,16 @@ a{
           height: 400px;
           padding: 25px;   
           justify-content: space-around;
-          margin-left: -70px;      
+          margin-left: -70px; 
+          margin-top: -1%;     
 }
 
 .herolmg2 {
           display: flex;
           height: 250px;
           padding: 25px;   
-          justify-content: space-around;      
+          justify-content: space-around;
+          margin-top: 2%;    
 }
 
 .herolmg3 {
@@ -143,17 +149,17 @@ a{
 
 #Illustration {
   grid-area: Illustration;
-  background-image: url("../images/beachIllus.png");
+  background-image: url("../images/Garden.svg");
 
 }
 #Infographics {
   grid-area: Infographics;
-  background-image: url("../images/Infographics.svg");
+  background-image: url("../images/Infographics.png");
 }
 
 #Investimum {
   grid-area: Investimum;
-  background-image: url("../images/Investimum.png");
+  background-image: url("../images/Investimum.svg");
 }
 
 #Logos {
@@ -163,12 +169,19 @@ a{
 
 .categoryGridArea {
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   margin: 5px;
   cursor: pointer;
   display: grid;
   align-content: end;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: Lato;
+    margin-left: 60px;
+    color: Black;
 }
 
 h3{
@@ -182,17 +195,23 @@ h5 {
     font-family: Lato;
 }
 
-p{
-    color: #767576 ;
+p {
+   font-size: 18px;
+   font-family: inter;
+   margin-top: 0px;
+   justify-content: top;
+   margin-left: 60px;
+   color: #767576;
+}
+
+.titleH{
+        margin-left: -10px;
+        margin-top: 5px;
 }
 
 .title {
         background-color: #d8edfb;
         height: 60px;
-}
-
-.herolmg p{
-           margin-left: 15px;
 }
 
 .herolmg h3 {
@@ -209,7 +228,7 @@ p{
              font-size: 40px;
              font-family: lato;
              text-align: center;
-             margin: 50px 0px 70px -30px;
+             margin: 50px 0px 70px -255px;
 }
 
 .herolmg2 h3 {
@@ -217,7 +236,7 @@ p{
              font-size: 40px;
              font-family: lato;
              text-align: center;
-             margin: 0px 0px 70px 50px;
+             margin: 0px 0px 70px 100px;
 }
 
 .herolmg3 h3 {
@@ -225,7 +244,11 @@ p{
              font-size: 40px;
              font-family: lato;
              text-align: center;
-             margin: 20px 0px 70px 50px;
+             margin: 20px 0px 70px -40px;
+}
+
+.projects{
+          margin-top: 7%;
 }
 
 .projects h3{
@@ -250,7 +273,7 @@ p{
    font-size: 18px;
    font-family: inter;
    justify-content: top;
-   margin-left: -30px;
+   margin-left: 25%;
 }
 
 
@@ -258,19 +281,21 @@ p{
    font-size: 18px;
    font-family: inter;
    justify-content: top;
-   margin-left: 55px;
+   margin-left: 100px;
 }
 
 .para {
-       font-size: 18px;
-       font-family: inter;
-       margin-top: 20px;
        text-align: center;
 }
 
+.imgD{
+      margin-right: 5%;
+}
 .AR {
      width: 30%;
      height: 70%;
+     margin-right: 5%;
+     margin-top: 2%;
 }
 
 

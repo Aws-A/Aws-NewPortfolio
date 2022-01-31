@@ -72,18 +72,18 @@ a{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 200px;
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 5px 7px;
   text-decoration: none;
   display: block;
+  font-size: 17px;
+  border-bottom: 1px solid;
 }
 
 /* Change color of dropdown links on hover */
@@ -102,61 +102,56 @@ a{
           justify-content: space-around;      
 }
 
+.titleH{
+        margin-left: -55;
+        margin-top: 5px;
+}
+
 .hero {
-      margin: 25px 75px 0px 0px;
+      margin: 60px 75px 0px 0px;
       height: 75%;
 }
 
-#categoryGrid {
-  margin: 25px 5%;
-  display: grid;
-  grid-template-rows: 450px 450px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-  "moodBoard features siteMap"
-  "moodBoard userFlow userFlow"
-  ;
+.userResearch {
+               margin-top: 4.5%;
 }
 
-#moodBoard {
-  grid-area: moodBoard;
-  background-image: url("../images/moodBoard.png");
-
-}
-#features {
-  grid-area: features;
-  background-image: url("../images/features.png");
+.synthesis {
+               margin-top: 4%;
 }
 
-#siteMap {
-  grid-area: siteMap;
-  background-image: url("../images/siteMap.png");
+.ideation {
+           margin-top: 2%;
 }
 
-#userFlow {
-  grid-area: userFlow;
-  background-image: url("../images/userFlow.png");
+.prototypes {
+             margin-top: 2%;
 }
 
-.categoryGridArea {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 5px;
-  cursor: pointer;
-  display: grid;
-  align-content: end;
+.userUsability{
+             margin-top: 2%;
 }
+
+ .futureOpp{
+            margin-top: 3%;
+ }
+
 
 .sec {
       display: flex;
       justify-content: center;
 }
+
 .card {   display: flex;
           width: 300px;
           flex-direction: column;
           text-align: center;
           padding: 3%;
+}
+
+.card p{
+        text-align: center;
+        margin-left: 0px;
 }
 
 .secSpecific {
@@ -169,9 +164,165 @@ a{
                margin: 40px;
 }
 
-.card p{
-        text-align: center;
-        margin-left: 0px;
+.secInter {
+             display: flex;
+             justify-content: center;
+             margin-top: 7%;
+}
+
+
+.secPersona {
+             display: flex;
+             justify-content: center;
+             margin-top: 0;
+}
+
+.secCom {
+             display: flex;
+             justify-content: center;
+             margin-top: 1.5%;
+}
+
+.cardParaInter {
+              flex-direction: column;
+              display: flex;
+              width: 50%;
+              padding: 3%;
+              margin-left: 0;
+              margin-top: -7%;
+}
+
+.cardParaRight {
+              flex-direction: column;
+              display: flex;
+              width: 50%;
+              padding: 3%;
+              margin-right: 7%;
+              margin-top: -3%;
+}
+
+.cardInter {
+          flex-direction: column;
+          display: flex;
+          width: 30%;
+          padding: 3%;
+          margin-right: 6.5%;
+          margin-top: -3%;
+}
+
+.cardPersona {
+          flex-direction: column;
+          display: flex;
+          width: 50%;
+          padding: 3%;
+          margin-left: 4%;
+          margin-top: 0;
+}
+
+.cardComp {
+          flex-direction: column;
+          display: flex;
+          width: 30%;
+          padding: 3%;
+          margin-right: 7%;
+          margin-top: 0;
+}
+
+.cardParaCom{
+              flex-direction: column;
+              display: flex;
+              width: 50%;
+              padding: 3%;
+              margin-right: 5%;
+              margin-top: -4%;
+
+}
+
+.secStory {
+            display: flex;
+            justify-content: center;
+            margin-top: 3%;
+}
+
+.cardStory {
+          flex-direction: column;
+          display: flex;
+          width: 50%;
+          padding: 3%;
+          margin-left: 5%;
+          margin-top: 0;
+}
+
+.secJourney {
+             display: flex;
+             justify-content: center;
+             margin-top: 3%;
+
+}
+
+.cardJourney {
+          flex-direction: column;
+          display: flex;
+          width: 50%;
+          padding: 3%;
+          margin-right: 7%;
+          margin-top: -3%;
+}
+
+.cardParaJourney{
+              flex-direction: column;
+              display: flex;
+              width: 50%;
+              padding: 3%;
+              margin-left: 0;
+              margin-top: -5%;
+}
+
+.secHypo {
+          display: flex;
+          justify-content: center;
+          margin-top: 0;
+}
+
+.cardParaHypo {
+              flex-direction: column;
+              display: flex;
+              width: 50%;
+              padding: 3%;
+              margin-right: 7%;
+              margin-top: -3%;
+}
+
+.secBook {
+            justify-content: center;
+            margin-top: 0;         
+}
+
+.cardBook {
+          justify-content: center;
+          display: flex;
+          padding: 3%;
+          margin-left: 0;
+}
+
+.cardParaId {
+              text-align: center;
+              padding: 3%;
+              margin-top: -7%;
+              margin-left: -7%;
+}
+
+.secProto{
+           display: flex;
+           justify-content: center;
+           margin-top: -2%;
+}
+
+.cardProto {
+            display: flex;
+           width: 40%;
+           flex-direction: column;
+           padding: 3%;
 }
 
 p {
@@ -204,21 +355,18 @@ h2 {
     color: #24B0FF;
 }
 
-h5 {
+h4 {
     text-align: center;
     font-size: 25px;
     font-family: Lato;
+    margin-left: 60px;
 }
 
-.heading {
-  background-color: rgba(0,0,0,0.7);
-  padding: 15px;
-  height: 25px;
-  color: white;
-  font-size: 18px;
-  border-bottom: 5px solid #24B0FF;
-  text-align: center;
-  font-family: inter;
+h5 {
+    text-align: left;
+    font-size: 25px;
+    font-family: Lato;
+    margin-left: 60px;
 }
 
 footer {
