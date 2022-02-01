@@ -137,7 +137,7 @@ a{
 }
 
 #categoryGrid {
-  margin: 25px 5%;
+  margin: 1% 5%;
   display: grid;
   grid-template-rows: 450px 450px;
   grid-template-columns: 1fr 1fr 1fr;
