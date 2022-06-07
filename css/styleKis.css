@@ -483,56 +483,74 @@ h5 {
     font-family: Lato;
 }
 
+.futureopp {
+           margin-bottom: 9%;
+}
+
 footer {
         background-color: #000000;
-        margin: 50px 0px 0px -50px;
-        padding: 50px;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        text-align: center;
         color: white;
-        margin-right: -50px;
-        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        height: 160px;
+        width: 1270px;;
+        position: relative; top: -23px;
 }
 
-footer h5{
-          font-family: inter;
-          color: white;
+footer h5 {
+              font-size: 20px;
+             font-family: inter;
 }
 
+.EP {
+     margin-top: 2.5%;
+     margin-right: 2%;
+}
 
-.Mail {
+.Con {
       display: flex;
-      justify-content: center;
-      margin-bottom: -30px;
+      margin-bottom: 2%;
 }
 
-.Mob {
-      display: flex;
-      justify-content: center;
+.Em {
+     margin: 2% 0% 0% 6.5%;
 }
 
+.pImg {
+     margin-left: -0.5%;
+}
+
+.num {
+      margin: 3% 0% 0% 6%;
+}
 
 .Soc {
       display: flex;
-      justify-content: center;
+      margin: 1.5% 0% 0% 0%;
 }
 
-.linkS {
-        margin: 0.4%;
+.ii {
+     margin-top: 6.1%;
+     margin-left: 6.3%;
+}
+
+
+.Links {
+        margin: 5%;
 }
 
 .copyright {
          background-color: #DEDFE0;
-         height: 60px;
-         color: #24B0FF;
+         height: 40px;
+         width: 1270px;
          text-align: center;
-         font-family: Lato;
-         padding: 30px 0px 0px 0px;
-         margin-right: -50px;
+         margin: -2% 0% 0% 0%;
 }
 
 .copyright p{
-             margin-left: -50px;
-             color: #24B0FF;
+             padding-top: 1%;
+             color: #000000;
+             font-size: 15px;
+             font-family: inter;
+             margin-left: 0px;
 }
