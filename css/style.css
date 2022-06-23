@@ -94,6 +94,7 @@ a{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+
 .herolmg {
           display: flex;
           height: 400px;
@@ -213,7 +214,7 @@ h6 a{
            font-family: Perpetua;
            font-size: 20px;
            margin-left: 80px;
-           margin-top: -25px;
+           margin-top: -28px;
 }
 
 .Projects h4 {
@@ -251,6 +252,7 @@ p{
 .buttonBg {
            width: 45%;
            margin-left: 60px;
+           margin-top: 0.5%;
 }
 
 .imagePK {
@@ -271,7 +273,7 @@ p{
           margin-left: 25px;
 }
 
-footer {
+#contact {
         background-color: #000000;
         color: white;
         display: flex;
@@ -281,7 +283,7 @@ footer {
         position: relative; top: -7px;
 }
 
-footer h5 {
+#contact h5 {
              font-size: 20px;
              font-family: inter;
 }
@@ -336,4 +338,95 @@ footer h5 {
              color: #000000;
              font-size: 15px;
              font-family: inter;
+}
+
+@media only screen and (max-width: 600px) {
+            .herolmg {
+                display: inline-table;;
+            }
+            .buttonBg{
+                width: 45%;
+            }
+            .heroPar {
+                width: 520px;
+            }
+            nav{
+                display: none;
+                margin-top: 3%;
+                justify-content: left;
+            }
+            nav a{
+                padding-left: 0px;
+                font-size: 15px;
+            }
+            .hero{
+                width: 100%;
+                margin-top: -20%;
+                margin-left: -1%;
+            }
+            #allTop {
+                background-size: 1600px;
+                width: 600px ;
+            }
+            .dropdown{
+                font-size: 15px;
+            }
+                        .mySkills h2{
+                margin-top: -80px;
+            }
+            .illus{
+                margin-top: -40%;
+                justify-content: space-between;
+                margin-left: -110%;
+            }
+            .mySkills{
+                margin-top: 10%;
+                margin-left: 0%;
+            }
+            .card{
+                margin: 7%;
+            }
+            .mySkills h5{
+                font-size: 20px;
+            }
+            .skillsIcon {
+                 margin-top: -31%;
+            }
+            .myProjects{
+                margin-top: -55%;
+            }
+
+            .myProjects h2{
+            }
+
+            .illus2{
+                margin-top: -15%;
+                display: inline-table;
+            }
+
+            .projectsImg{
+                display: none;
+            }
+            .projectsIcons{
+                width: 50%;
+                margin-left: 25%;
+            }
+            .projectsIconsAlZ{
+                width: 25%;
+                margin-left: 35%;
+            }
+            #contact {
+                width: 600px;
+                display: inline-table;
+                position: relative; top: 7px;
+            }
+            .copyright{
+                width: 600px;
+            }
+            .Soc {
+                  margin-left: 20%;
+            }
+            .Ep {
+                  margin-left: 25%;
+            }
 }

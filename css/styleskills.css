@@ -458,7 +458,7 @@ p{
            margin-bottom: 9%;
 }
 
-footer {
+#contact {
         background-color: #000000;
         color: white;
         display: flex;
@@ -468,7 +468,7 @@ footer {
         position: relative; top: -6.7px;
 }
 
-footer h5 {
+#contact h5 {
              font-size: 20px;
              font-family: inter;
 }
