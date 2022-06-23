@@ -343,10 +343,21 @@ p{
 @media only screen and (max-width: 600px) {
             .herolmg {
                 display: inline-table;
-                margin-left: -80px;
+                margin-left: -55px;
+                width: 100%;
+            }
+            h1{
+               font-size: 30px;
+            }
+            .herolmg h3{
+            font-size: 12px;    
+            }
+            #allTop h6{
+            margin-left: 300px;
+            margin-top: 2%;    
             }
             .buttonBg{
-                width: 45%;
+                width: 55%;
             }
             .heroPar {
                 width: 520px;
@@ -363,11 +374,11 @@ p{
             .hero{
                 width: 100%;
                 margin-top: -20%;
-                margin-left: -1%;
+                margin-left: 7%;
             }
             #allTop {
-                background-size: 1600px;
-                width: 412px ;
+                background-size: 1300px;
+                width: 430px ;
             }
             .dropdown{
                 font-size: 15px;
@@ -411,17 +422,21 @@ p{
                 margin-left: 35%;
             }
             #contact {
-                width: 412px;
+                width: 430px;
                 display: inline-table;
                 position: relative; top: 7px;
             }
             .copyright{
-                width: 412px;
+                width: 430px;
             }
             .Soc {
-                  margin-left: 0%;
+                  margin-left: 17%;
             }
             .Ep {
-                  margin-left: 0%;
+                  margin-left: 12%;
+                  margin-top: -1%;
+            }
+            .copyright p{
+                padding-top: 3%;
             }
 }
