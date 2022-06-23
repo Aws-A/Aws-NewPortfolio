@@ -342,7 +342,8 @@ p{
 
 @media only screen and (max-width: 600px) {
             .herolmg {
-                display: inline-table;;
+                display: inline-table;
+                margin-left: -80px;
             }
             .buttonBg{
                 width: 45%;
@@ -366,7 +367,7 @@ p{
             }
             #allTop {
                 background-size: 1600px;
-                width: 600px ;
+                width: 412px ;
             }
             .dropdown{
                 font-size: 15px;
@@ -375,32 +376,26 @@ p{
                 margin-top: -80px;
             }
             .illus{
-                margin-top: -40%;
+                margin-top: -20%;
                 justify-content: space-between;
-                margin-left: -110%;
             }
             .mySkills{
                 margin-top: 10%;
                 margin-left: 0%;
             }
-            .card{
-                margin: 7%;
-            }
             .mySkills h5{
-                font-size: 20px;
+                font-size: 11px;
             }
             .skillsIcon {
                  margin-top: -31%;
             }
             .myProjects{
-                margin-top: -55%;
-            }
-
-            .myProjects h2{
+                margin-top: -66%;
             }
 
             .illus2{
-                margin-top: -15%;
+                margin-top: -12%;
+                margin-left: 15%;
                 display: inline-table;
             }
 
@@ -416,17 +411,17 @@ p{
                 margin-left: 35%;
             }
             #contact {
-                width: 600px;
+                width: 412px;
                 display: inline-table;
                 position: relative; top: 7px;
             }
             .copyright{
-                width: 600px;
+                width: 412px;
             }
             .Soc {
-                  margin-left: 20%;
+                  margin-left: 0%;
             }
             .Ep {
-                  margin-left: 25%;
+                  margin-left: 0%;
             }
 }
