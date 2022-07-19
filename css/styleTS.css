@@ -18,7 +18,6 @@ body a:click{
              background-repeat: no-repeat;
              background-position-x: center;
              margin-top: -50px;
-             margin-right: -50px;
 }
 
 .logo {
@@ -41,6 +40,7 @@ nav {
      color: #767576;
      margin-top: 33px;
      margin-right: 15px;
+     white-space: nowrap;
 }
 
 nav a {
@@ -379,7 +379,7 @@ h5 {
         display: flex;
         justify-content: center;
         height: 160px;
-        width: 1270px;
+        width: 100%;
         position: relative; top: -22.7px;
 }
 
@@ -428,7 +428,7 @@ h5 {
 .copyright {
          background-color: #DEDFE0;
          height: 40px;
-         width: 1270px;
+         width: 100%;
          text-align: center;
          margin: -2% 0% 0% 0%;
 }
@@ -439,4 +439,149 @@ h5 {
              font-size: 15px;
              font-family: inter;
              margin-left: 0px;
+}
+@media only screen and (max-width: 500px) {
+            .herolmg {
+                display: inline-table;
+                margin-left: -55px;
+            }
+            h1{
+               font-size: 30px;
+            }
+            .herolmg h3{
+            font-size: 12px;    
+            }
+            #allTop {
+            background-size: 1450px;
+            width: 430px;
+            }
+            #allTop h6{
+            margin-left: 300px;
+            margin-top: 2%;    
+            }
+            .titleH {
+                margin-top: 0%;
+                margin-left: 1%;
+            }
+            .hero{
+                width: 70%;
+                height: 50%;
+                margin-top: -2%;
+                margin-left: 17%;
+            }
+            nav{
+                margin-top: 3%;
+                margin-left: 0%;
+                white-space: nowrap;
+            }
+            nav a{
+                padding-left: 0px;
+                font-size: 12px;
+                padding: 50px 7px 7px 0px;
+            }
+            .dropdown{
+                font-size: 12px;
+                padding: 50px 7px 7px 0px;  
+            }
+            .dropdown-content{
+                min-width: 100px;
+            }
+            .dropdown-content a{
+                font-size: 11px;
+            }
+            .userResearch i{
+                width: 80%;
+            }
+            .para{
+             padding-left: 2%;
+             padding-right: 2%;
+            }
+            .cardStory{
+                margin-left: 7%;
+            }
+            .cardPersona {
+                margin-left: 10%;
+            }
+            .cardParaRight{
+                margin-right: 10%;
+            }
+            .secInter{
+                display: unset;
+            }
+            .secPersona{
+                display: unset;
+            }
+            .secCom{
+                display: unset;
+            }
+            .secStory{
+                display: unset;
+            }
+            .secJourney{
+                display: unset;
+            }
+            .secHypo{
+                display: unset;
+            }
+            .cardParaInter{
+                width: 80%;
+            }
+            .cardInter{
+                width: 80%;
+            }
+            .cardPersona{
+                width: 80%;
+            }
+            .cardParaRight{
+                width: 80%;
+            }
+            .cardParaCom{
+                width: 80%;
+            }
+            .cardComp{
+                width: 80%;
+                margin-left: 5%;
+            }
+            .cardStory{
+                width: 80%;
+            }
+            .cardParaJourney{
+                width: 80%;
+            }
+            .cardJourney{
+                width: 80%;
+            }
+            .cardParaHypo{
+                width: 80%;
+            }
+            .hypothesisTS{
+                width: 80%;
+            }
+            .personaTSLetter{
+                width: 80%;
+            }
+            #contact {
+                width: 100%;
+                display: inline-table;
+                position: relative; top: -5px;
+            }
+            .copyright{
+                width: 100%;
+            }
+            .Soc {
+                  margin-left: 17%;
+            }
+            .Ep {
+                  margin-left: 12%;
+                  margin-top: -1%;
+            }
+            .copyright p{
+                padding-top: 3%;
+            }
+}
+
+@media (min-width: 500px) and (max-width: 919px){
+            #allTop{
+                width: 1100px;
+            }
 }

@@ -21,7 +21,6 @@ a{
              background-repeat: no-repeat;
              background-position-x: center;
              margin-top: -50px;
-             margin-right: -50px;
 }
 
 .logo {
@@ -451,7 +450,7 @@ p {
 }
 
 
- .futureOpp {
+.futureOpp {
              justify-content: center;
              margin-top: 4%;
  }
@@ -493,8 +492,8 @@ h5 {
         display: flex;
         justify-content: center;
         height: 160px;
-        width: 1270px;;
-        position: relative; top: -23px;
+        width: 100%;
+        position: relative; top: -23.2px;
 }
 
 #contact h5 {
@@ -542,15 +541,175 @@ h5 {
 .copyright {
          background-color: #DEDFE0;
          height: 40px;
-         width: 1270px;
+         width: 100%;
          text-align: center;
          margin: -2% 0% 0% 0%;
 }
 
 .copyright p{
-             padding-top: 1%;
+             padding-top: 0.97%;
              color: #000000;
              font-size: 15px;
              font-family: inter;
              margin-left: 0px;
+}
+@media only screen and (max-width: 500px) {
+            .herolmg {
+                display: inline-table;
+                margin-left: -55px;
+                width: 100%;
+            }
+            h1{
+               font-size: 30px;
+            }
+            .herolmg h3{
+            font-size: 12px;    
+            }
+            #allTop h6{
+            margin-left: 300px;
+            margin-top: 2%;    
+            }
+            .secProto{
+                display: unset;
+            }
+            .secInterview{
+                display: unset;
+            }
+            .secComp{
+                display: unset;
+            }
+            .secPersona{
+                display: unset;
+            }
+            .secJourney{
+                display: unset;
+            }
+            .card{
+                width: 80%;
+                text-align: center;
+            }
+            .cardI{
+                 width: 50%;
+                 margin-left: 40%;
+            }
+            .cardInterview{
+                margin-left: 5%;
+            }
+            .cardComp{
+                margin-left: 5%;
+            }
+            .cardPersona{
+                margin-left: 5%;
+            }
+            .titleH {
+                margin-top: 0%;
+                margin-left: 1%;
+            }
+            .heroPar {
+                width: 520px;
+            }
+            nav{
+                margin-top: 3%;
+                margin-left: 0%;
+                white-space: nowrap;
+            }
+            nav a{
+                padding-left: 0px;
+                font-size: 12px;
+                padding: 50px 7px 7px 0px;
+            }
+            .dropdown{
+                font-size: 12px;
+                padding: 50px 7px 7px 0px;  
+            }
+            .dropdown-content{
+                min-width: 100px;
+            }
+            .dropdown-content a{
+                font-size: 11px;
+            }
+            .hero{
+                width: 70%;
+                height: 50%;
+                margin-left: 15%;
+            }
+            #allTop {
+                background-size: 1450px;
+                width: 430px ;
+            }
+            .timeLine{
+                display: none;
+            }
+            .secFeatures{
+                display: unset;
+            }
+            .cardParaF{
+                width: 93%;
+            }
+            .cardImgF{
+                width: 93%;
+            }
+            .secSite{
+                display: unset;
+            }
+            .secUserFlow{
+                display: unset;
+            }
+            .cardImgU{
+                width: 93%;
+            }
+            .secPrototypes{
+                display: unset;
+            }
+            .cardParaTypes1{
+                width: 93%;
+            }
+            .cardImgTypes1{
+                width: 93%;
+            }
+            .secPrototypes2{
+                display: unset;
+            }
+            .secIt{
+                display: unset;
+            }
+            .cardParaIt{
+                width: 80%;
+            }
+            .cardHot{
+                width: 80%;
+            }
+            .cardIt{
+                width: 80%;
+            }
+            #contact {
+                width: 430px;
+                display: inline-table;
+                position: relative; top: -5px;
+            }
+            .copyright{
+                width: 430px;
+            }
+            .Soc {
+                  margin-left: 17%;
+            }
+            .Ep {
+                  margin-left: 12%;
+                  margin-top: -1%;
+            }
+            .copyright p{
+                padding-top: 3%;
+            }
+            nav{
+                white-space: nowrap;
+            }
+}
+
+@media (min-width: 500px) and (max-width: 919px){
+            #allTop{
+                width: 1100px;
+            }
+            nav{
+                white-space: nowrap;
+            }
 }
