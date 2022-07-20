@@ -238,12 +238,12 @@ h6 a{
 
 
 #allTop h6{
-           font-family: Kunstler Script thin; 
+           font-family: "Kunstler Script";
            margin-left: 390px;
            margin-top: -10px;
            color: #767576;
-}
-
+       }
+"
 p{
     font-family: inter;
 }
