@@ -12,9 +12,14 @@ body a:click{
        color: black;
 }
 
- body {
-  font-family: 'kunstler Script' !important;
-  }
+@font-face{
+    font-family: 'KUNSTLER';
+    src: url('fonts/KUNSTLER.TTF');
+    rc: url('fonts/KUNSTLER.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 #allTop {
              background-image: url("../images/heroGlass.png");
@@ -242,7 +247,7 @@ h6 a{
 
 
 #allTop h6{
-           font-family: "Kunstler Script";
+           font-family: Kunstler Script;
            margin-left: 390px;
            margin-top: -10px;
            color: #767576;
