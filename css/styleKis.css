@@ -566,9 +566,16 @@ h5 {
             .herolmg h3{
             font-size: 12px;    
             }
+            #allTop {
+                background-size: 1500px;
+                width: 430px ;
+            }
             #allTop h6{
             margin-left: 300px;
             margin-top: 2%;    
+            }
+            .userResearch{
+                margin-top: 20%;
             }
             .secProto{
                 display: unset;
@@ -633,10 +640,6 @@ h5 {
                 width: 70%;
                 height: 50%;
                 margin-left: 15%;
-            }
-            #allTop {
-                background-size: 1450px;
-                width: 430px ;
             }
             .timeLine{
                 display: none;
@@ -706,11 +709,8 @@ h5 {
             }
 }
 
-@media (min-width: 500px) and (max-width: 919px){
+@media (min-width: 500px) and (max-width: 1025px){
             #allTop{
                 width: 1100px;
-            }
-            nav{
-                white-space: nowrap;
             }
 }

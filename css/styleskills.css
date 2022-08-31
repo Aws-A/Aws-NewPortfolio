@@ -551,6 +551,11 @@ p{
             .herolmg h3{
             font-size: 12px;    
             }
+            #allTop {
+                background-size: 900px;
+                width: 430px ;
+                margin-bottom: -65%;
+            }
             #allTop h6{
             margin-left: 300px;
             margin-top: 2%;    
@@ -564,7 +569,6 @@ p{
             nav{
                 margin-top: 3%;
                 margin-left: 0%;
-                white-space: nowrap;
             }
             nav a{
                 padding-left: 0px;
@@ -586,13 +590,9 @@ p{
                 margin-top: -20%;
                 margin-left: 7%;
             }
-            #allTop {
-                background-size: 800px;
-                width: 430px ;
-                margin-bottom: -65%;
-            }
             .mySkills{
                 margin-left: 5%;
+                margin-top: 5%;
             }
             .mySkills h4{
                 font-size: 11px;
@@ -760,8 +760,6 @@ p{
 }
 
 @media (min-width: 539px) and (max-width: 541px){
-            #allTop{
-            }
             #skillsResearch{
                margin-right: -45%;
             }
@@ -835,9 +833,6 @@ p{
             #skillsResearch{
               margin-top: -15%;
             }
-            nav {
-              white-space: nowrap;
-            }
 }
 
 @media (min-width: 500px) and (max-width: 800px) {
@@ -850,17 +845,15 @@ p{
             .copyright{
                 width: 800px;
             }
-            nav {
-                white-space: nowrap;
-            }
 }
 
 @media (min-width: 500px) and (max-width: 1025px) {
             #allTop{
-              background-size: 1300px;
+              background-size: 1400px;
             }
             .mySkills{
               margin-left: 0px;
+              margin-top: 1%;
             }
             .herolmg {
                 display: inline-table;

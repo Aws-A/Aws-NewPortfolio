@@ -244,7 +244,7 @@ h6 a{
 .illus2 h5 {
     text-align: center;
     font-size: 25px;
-    font-family'Kunstler', : Lato;
+    font-family: Kunstler, Lato;
 }
 
 
@@ -356,6 +356,7 @@ p{
                 display: inline-table;
                 margin-left: -55px;
                 width: 100%;
+                margin-top: -30px;
             }
             h1{
                font-size: 30px;
@@ -399,7 +400,7 @@ p{
                 margin-left: 7%;
             }
             #allTop {
-                background-size: 1300px;
+                background-size: 1400px;
                 width: 430px ;
             }
                         .mySkills h2{
@@ -458,11 +459,15 @@ p{
             .copyright p{
                 padding-top: 3%;
             }
+            .herolmg{
+                margin-top: -30px;
+            }
 }
 
 @media (min-width: 500px) and (max-width: 1024px) {
             .herolmg {
                 display: inline-table;
+                margin-top: -30px;
             }
             h1{
                font-size: 30px;
@@ -500,7 +505,7 @@ p{
                 margin-left: 7%;
             }
             #allTop {
-                background-size: 1600px;
+                background-size: 1750px;
                 width: 100%;
             }
                         .mySkills h2{
@@ -555,6 +560,30 @@ p{
             .copyright p{
                 padding-top: 2%;
             }
+            .herolmg{
+                margin-top: -30px;
+            }
+}
+
+@media (min-width: 810px) and (max-width: 852px){
+            #allTop{
+                background-size: 1650px;
+            }
+}
+
+@media (min-width: 890px) and (max-width: 897px){
+            #allTop{
+                background-size: 1700px;
+            }
+}
+
+@media (min-width: 1179px) and (max-width: 1181px){
+            .hero{
+                width: 5bc0%;
+            }
+            #allTop{
+                background-size: 1750px;
+            }
 }
 
 @media only screen and (max-width: 380px) {
@@ -586,6 +615,7 @@ p{
 @media (min-width: 500px) and (max-width: 800px) {
             #allTop{
                 width: 800px;
+                background-size: 1650px;
             }
             .ButtonBg{
                 width: 31%;
@@ -609,9 +639,6 @@ p{
             .iLlus2{
                 margin-right: -8%;
                 margin-top: -10%;
-            }
-            nav {
-                white-space: nowrap;
             }
 }
 
