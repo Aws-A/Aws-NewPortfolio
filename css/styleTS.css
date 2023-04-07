@@ -584,4 +584,10 @@ h5 {
             #allTop{
                 width: 1100px;
             }
-}e
+}
+
+@media (min-width: 1182px) and (max-width: 1500px) {
+            #allTop{
+                background-size: 1500px;
+            }
+}

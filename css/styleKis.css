@@ -714,3 +714,9 @@ h5 {
                 width: 1100px;
             }
 }
+
+@media (min-width: 1182px) and (max-width: 1500px) {
+            #allTop{
+                background-size: 1500px;
+            }
+}

@@ -689,3 +689,9 @@ p{
                 margin-left: 0px;
             }
 }
+
+@media (min-width: 1182px) and (max-width: 1500px) {
+            #allTop{
+                background-size: 1500px;
+            }
+}
