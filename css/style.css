@@ -255,7 +255,7 @@ h6 a{
            margin-top: -10px;
            color: #767576;
        }
-"
+
 p{
     font-family: inter;
 }
@@ -665,7 +665,6 @@ p{
                 margin-right: -40%;
             }
             .myProjects{
-                margin-right: -35%
             }
 }
 
@@ -695,4 +694,11 @@ p{
             #allTop{
                 background-size: 1500px;
             }
+            .buttonBg {
+              width: 35%;
+            }
+            #allTop h6{
+           margin-left: 456px;
+           margin-top: 20px;
+       }
 }
