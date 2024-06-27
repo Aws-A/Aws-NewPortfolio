@@ -571,6 +571,12 @@ p{
             }
 }
 
+@media (min-width: 852px) and (max-width: 854px) {
+            .mySkills {
+                margin-top: 7%;
+            }
+}
+
 @media (min-width: 890px) and (max-width: 897px){
             #allTop{
                 background-size: 1700px;
@@ -583,6 +589,9 @@ p{
             }
             #allTop{
                 background-size: 1750px;
+            }
+            #allTop h6 {
+                margin-left: 300px;
             }
 }
 
@@ -658,6 +667,17 @@ p{
             .projectsImg{
                 margin-left: 5%;
             }
+}
+
+@media (min-width: 719px) and (max-width: 741px){
+            .mySkills{
+                margin-right: -10%;
+            }
+            .myProjects{
+                margin-right: -3%;
+            }
+
+
 }
 
 @media (min-width: 530px) and (max-width: 550px){
