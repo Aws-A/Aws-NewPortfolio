@@ -773,16 +773,16 @@ p{
 @media (min-width: 429px) and (max-width: 431px){
   
           #skillsResearch{
-            margin-right: -3%;
+            margin-left: -3%;
           }
           #skillsInfo{
-            margin-right: -3%;
+            margin-left: -3%;
           }
           #skillsPrototypes{
-            margin-right: -3%;
+            margin-left: -3%;
           }
           #skillsUI{
-            margin-right: -3%;
+            margin-left: -3%;
           }
 }
 
