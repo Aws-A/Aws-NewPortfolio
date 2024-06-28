@@ -676,6 +676,24 @@ p{
             }
 }
 
+@media (min-width: 340px) and (max-width: 345px){
+          .mySkills{
+            margin-right: 13%;
+          }
+          #skillsResearch{
+            margin-right: -13%;
+          }
+          #skillsInfo{
+            margin-right: -13%;
+          }
+          #skillsPrototypes{
+            margin-right: -13%;
+          }
+          #skillsUI{
+            margin-right: -13%;
+          }
+}
+
 @media (min-width: 359px) and (max-width: 376px){
             .mySkills{
               margin-left: 1%;
@@ -886,6 +904,18 @@ p{
             }
             .copyright p{
                 padding-top: 2%;
+            }
+}
+
+@media (min-width: 500px) and (max-width: 899px) {
+            .heading {
+              height: 35px;
+            }
+}
+
+@media (min-width: 900px) and (max-width: 999px) {
+            .heading {
+              padding: 10px;
             }
 }
 
