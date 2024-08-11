@@ -503,6 +503,33 @@ h5 {
             }
 }
 
+@media (min-width: 819px) and (max-width: 883px){
+            #allTop {
+                width: 100%;
+            }
+            #allTop p {
+                margin-top: -25px;
+            }
+            nav a {
+                padding: 50px 25px 25px 25px;
+            }
+            .dropdown {
+                padding: 50px 25px 25px 25px;
+            }
+            .hero {
+                margin-right: 0px;
+            } 
+            #contact {
+                margin-bottom: -3%;
+            }
+}
+
+@media (min-width: 1020px) and (max-width: 1025px){
+            #allTop{
+                width: 105%;
+            }
+}
+
 @media (min-width: 1182px) and (max-width: 1500px) {
             #allTop{
                 background-size: 1500px;

@@ -677,11 +677,30 @@ h5 {
             .secIt{
                 display: unset;
             }
+            .cardP {
+                margin-left: 5%;
+            }
+            .cardParaInter {
+                margin-left: 5%;
+            }
+            .cardParaComp{
+                margin-left: 5%;
+            }
+            .cardImgF img {
+                margin-left: 7%;
+            }
             .cardParaIt{
                 width: 80%;
+                margin-left: 5%;
             }
             .cardHot{
                 width: 80%;
+            }
+            .cardHot img {
+                margin-right: -14%
+            }
+            .cardIt img{
+                margin-right: -14%;
             }
             .cardIt{
                 width: 80%;
@@ -712,6 +731,27 @@ h5 {
 @media (min-width: 500px) and (max-width: 1025px){
             #allTop{
                 width: 1100px;
+            }
+}
+
+@media (min-width: 819px) and (max-width: 883px){
+            #allTop{
+                width: 100%;
+            }
+            nav a {
+                padding: 50px 25px 25px 25px;
+            }
+            .dropdown {
+                padding: 50px 25px 25px 25px;
+            }
+            #contact {
+                margin-bottom: -3%;
+            }
+}
+
+@media (min-width: 1020px) and (max-width: 1025px){
+            #allTop{
+                width: 105%;
             }
 }
 

@@ -486,6 +486,196 @@ p {
             }
 }
 
+
+@media (min-width: 500px) and (max-width: 800px){
+
+            .herolmg1 h3 {
+                margin-left: -180px;
+            }
+            .herolmg2 h3 {
+                margin-left: 80px;
+            }
+            .paraH {
+                margin-left: 80px;
+            }
+            .AR {
+                margin-top: 5%;
+            }
+}
+
+@media (min-width: 800px) and (max-width: 900px){
+
+            .herolmg1 h3 {
+                margin-left: -180px;
+            }
+            .herolmg2 h3 {
+                margin-left: 80px;
+            }
+            .paraH {
+                margin-left: 80px;
+            }
+            .AR {
+                margin-top: 7%;
+            }
+}
+
+@media (min-width: 819px) and (max-width: 821px){
+            #allTop {
+                width: 100%;
+            }
+            #allTop p {
+                margin-top: -25px;
+            }
+            nav a {
+                padding: 50px 25px 25px 25px;
+            }
+            .dropdown {
+                padding: 50px 25px 25px 25px;
+            }
+            .herolmg1 h3 {
+                margin-left: -50px;
+            }
+            .herolmg2 h3 {
+                text-wrap: nowrap;
+                margin-left: 10px;
+            }
+            .paraH {
+                margin-left: 30px;
+            }
+            .AR {
+                margin-top: 10%;
+                margin-left: -15%;
+            }
+
+}
+
+@media (min-width: 850px) and (max-width: 855px){
+            #allTop {
+                width: 100%;
+            }
+            #allTop p {
+                margin-top: -25px;
+            }
+            nav a {
+                padding: 50px 25px 25px 25px;
+            }
+            .dropdown {
+                padding: 50px 25px 25px 25px;
+            }
+            .herolmg1 h3 {
+                margin-left: -50px;
+            }
+            .herolmg2 h3 {
+                margin-left: 30px;
+            }
+            .paraH {
+                margin-left: 30px;
+            }
+
+}
+
+@media (min-width: 900px) and (max-width: 1000px){
+            #allTop {
+                width: 100%;
+            }
+            nav a {
+                padding: 50px 30px 30px 30px;
+            }
+            .dropdown {
+                padding: 50px 30px 30px 30px;
+            }
+            .paraH1 {
+                margin-left: 17%;
+            }
+            .herolmg1 h3 {
+                margin-left: -200px;
+            }
+            .herolmg2 h3 {
+                text-wrap: nowrap;
+            }
+            .herolmg3 h3 {
+                margin-left: 70px;
+            }
+            .hero2-3 {
+                margin-left: -10%;
+            }
+           .AR {
+                margin-top: 7%;
+                margin-left: 1.5%;
+            }
+            .imgD {
+                margin-right: 0%;
+            }
+}
+
+@media (min-width: 900px) and (max-width: 930px){
+            .AR {
+                margin-left: 0%;
+            }
+            .herolmg3 h3 {
+                margin-left: 17%;
+            }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1100px){
+            #allTop {
+                width: 100%;
+            }
+            nav a {
+                padding: 50px 40px 40px 40px;
+            }
+            .dropdown {
+                padding: 50px 40px 40px 40px;
+            }
+            .herolmg1 h3 {
+                margin-left: -160px;
+            }
+            .herolmg2 h3 {
+                text-wrap: nowrap;
+            }
+            .herolmg3 h3 {
+                margin-left: 50px;
+            }
+            .hero2-3 {
+                margin-left: -3%;
+            }
+           .AR {
+                margin-top: 7%;
+            }
+            .imgD {
+                margin-right: 2%;
+            }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px){
+            .herolmg1 h3 {
+                margin-left: -210px;
+            }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1300px){
+            .herolmg1 h3 {
+                margin-left: -260px;
+            }
+
+}
+
+@media only screen and (min-width: 1300px){
+            .herolmg1 h3 {
+                margin-left: -300px;
+            }
+            .herolmg2 h3 {
+                margin-left: 100px;
+            }
+            .herolmg3 h3 {
+                margin-left: -75px;
+            }
+
+ }
+
+
 @media (min-width: 1182px) and (max-width: 1500px) {
             #allTop{
                 background-size: 1500px;
